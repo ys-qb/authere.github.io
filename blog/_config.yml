@@ -5,7 +5,7 @@
 # Site
 title: Programming @Cloud
 subtitle: IaaS 부터 SaaS까지
-description:
+description: Progamming first
 author: Youngsoo Lee
 language: ko
 timezone: 'Asia/Seoul'
@@ -80,3 +80,7 @@ theme: overdose
 deploy:
   type: git
   repo: https://github.com/authere/authere.github.io.git
+
+# _config.yml of base, not theme config
+# Please put your shortname of disqus here.
+disqus_shortname: gitple

@@ -5,7 +5,7 @@ menu:
   Archives: /archives
 
 # Images
-favicon: /images/logo.svg
+favicon: /images/logo.png
 ## Post default banner image
 ## Please specify width and height for google's structured data (Schema.org SEO)
 default:
@@ -15,12 +15,12 @@ default:
 
 # Font
 ## availableFontList: [
-##   'noto-sans-kr',
-##   'spoqa-han-sans-kr',
-##   'spoqa-han-sans-jp'
+##    'noto-sans-kr',
+##    'spoqa-han-sans-kr',
+##    'spoqa-han-sans-jp'
 ## ]
 ## If you don't want font, you shouldn't specify the font.
-font:
+font: 'noto-sans-kr'
 
 # Dynamic menu with scrolling
 dynamic_menu: false
@@ -78,6 +78,3 @@ google_plus:
 #liveRe
 #  uid:
 
-# _config.yml of base, not theme config
-# Please put your shortname of disqus here.
-disqus_shortname: gitple
