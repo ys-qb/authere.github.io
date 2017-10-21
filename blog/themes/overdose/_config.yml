@@ -61,8 +61,8 @@ profile:
 ## If you don't want widget, you shouldn't specify widgets.
 widgets:
   - recent-posts
-  - archives
   - categories
+  - tags
 
 # Other Services
 google_analytics:

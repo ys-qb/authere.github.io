@@ -4,9 +4,9 @@
 
 # Site
 title: Programming @Cloud
-subtitle: IaaS 부터 SaaS까지
+subtitle: Programming @Cloud
 description: Progamming first
-author: Youngsoo Lee
+author: Gitple
 language: ko
 timezone: 'Asia/Seoul'
 
@@ -29,7 +29,7 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: post #draft
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -72,15 +72,38 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
-theme: overdose
+theme: hueman #overdose #landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/authere/authere.github.io.git
+  branch: master
 
 # _config.yml of base, not theme config
 # Please put your shortname of disqus here.
 disqus_shortname: gitple
+
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+  hub:
+  content: true
+
