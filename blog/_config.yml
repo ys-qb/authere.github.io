@@ -99,6 +99,13 @@ markdown:
     - markdown-it-ins
     - markdown-it-sub
     - markdown-it-sup
+  anchors:
+    level: 2
+    collisionSuffix: 'v'
+    permalink: true
+    permalinkClass: header-anchor
+    permalinkSymbol: "¶ "
+
 
 feed:
   type: atom
